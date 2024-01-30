@@ -1,3 +1,17 @@
+/* App.css (or your main CSS file) */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+/* App.css */
+:root {
+  --topnav-height: 60px; /* Set the height of your TopNav */
+}
+
+#content-col {
+  padding-top: var(--topnav-height);
+}
+
 .App {
   text-align: center;
 }
@@ -27,6 +41,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {
